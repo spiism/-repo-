@@ -1,0 +1,135 @@
+body {
+  overflow-x: hidden;
+}
+/* Navbar Section */
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  
+  
+
+}
+
+/* Navbar Left-Line */
+.navbar .nav-item.active {
+  border-left: #555 3px solid;
+}
+
+/* Logo */
+#imgLogo {
+  height: 60px;
+}
+
+/* phone # */
+.phone {
+  font-family: 'Passion One', cursive;
+  display: inline-block;
+  color: #ffcc00;
+  text-decoration: none;
+  font-size: 28px;
+  border-bottom: none;
+  padding-left: 15px;
+}
+.phone:hover {
+  text-decoration: none;
+  
+}
+
+/* SHOWCASE SLIDER */
+.carousel-item {
+  height: 88vh;
+}
+
+#testimonials {
+  height: 165px;
+}
+
+.carousel-image-1 {
+  background: url('../img/carousel1.jpg') no-repeat center center/cover;
+  
+}
+
+.carousel-image-2 {
+  background: url('../img/carousel2.jpg') no-repeat center center/cover;
+  
+}
+
+.carousel-image-3 {
+  background: url('../img/carousel3.jpg') no-repeat center center/cover;
+  
+}
+
+/* Home Heading Section */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/corgi.jpg') center center/cover;;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.fab {
+  padding: 5px;
+}
+
+/* PAGE HEADER */
+#page-header {
+  height: 200px;
+  background: url('../img/carousel2.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+ 
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+/* About Us */
+.yellow {
+  background-color: #ffcc00 !important;
+}
+
+/* FAQ */
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+/* Footer */
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+ .staff-img {
+   width: 70%;
+ }
+}
